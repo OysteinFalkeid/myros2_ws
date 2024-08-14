@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000817] (mypackage_pkg) JobQueued: {'identifier': 'mypackage_pkg', 'dependencies': OrderedDict()}
+[0.000877] (mypackage_pkg) JobStarted: {'identifier': 'mypackage_pkg'}
+[0.099405] (-) TimerEvent: {}
+[0.200129] (-) TimerEvent: {}
+[0.300640] (-) TimerEvent: {}
+[0.401581] (-) TimerEvent: {}
+[0.501944] (-) TimerEvent: {}
+[0.602302] (-) TimerEvent: {}
+[0.702690] (-) TimerEvent: {}
+[0.803042] (-) TimerEvent: {}
+[0.892416] (mypackage_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mypackage_pkg', 'build', '--build-base', '/home/oystein/myros2_ws/build/mypackage_pkg/build', 'install', '--record', '/home/oystein/myros2_ws/build/mypackage_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/oystein/myros2_ws/src/mypackage_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_US', 'USER': 'oystein', 'LC_TIME': 'nb_NO.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/oystein', 'OLDPWD': '/home/oystein/myros2_ws/src', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'nb_NO.UTF-8', 'MANAGERPID': '1090', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1123', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=028459350c5834b04d2ff68f66bb6f7f', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/oystein/myros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'oystein', 'WINDOWID': '67108870', 'JOURNAL_STREAM': '8:29786', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/oystein-desktop:@/tmp/.ICE-unix/1109,unix/oystein-desktop:/tmp/.ICE-unix/1109', 'GDM_LANG': 'en_US', 'INVOCATION_ID': '2f33e27007b341aaa9371c9a8c42bc59', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'nb_NO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'LC_TELEPHONE': 'nb_NO.UTF-8', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/oystein/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/oystein', 'AMENT_PREFIX_PATH': '/home/oystein/myros2_ws/install/mypackage_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nb_NO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nb_NO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'nb_NO.UTF-8', 'PWD': '/home/oystein/myros2_ws/build/mypackage_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=028459350c5834b04d2ff68f66bb6f7f', 'XDG_DATA_DIRS': '/usr/share/mate:/home/oystein/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/oystein/myros2_ws/build/mypackage_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages:/home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nb_NO.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'nb_NO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[0.903156] (-) TimerEvent: {}
+[1.003493] (-) TimerEvent: {}
+[1.103915] (-) TimerEvent: {}
+[1.204285] (-) TimerEvent: {}
+[1.236940] (mypackage_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.237852] (mypackage_pkg) StdoutLine: {'line': b'creating ../../build/mypackage_pkg/mypackage_pkg.egg-info\n'}
+[1.238167] (mypackage_pkg) StdoutLine: {'line': b'writing ../../build/mypackage_pkg/mypackage_pkg.egg-info/PKG-INFO\n'}
+[1.238654] (mypackage_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypackage_pkg/mypackage_pkg.egg-info/dependency_links.txt\n'}
+[1.238963] (mypackage_pkg) StdoutLine: {'line': b'writing entry points to ../../build/mypackage_pkg/mypackage_pkg.egg-info/entry_points.txt\n'}
+[1.239285] (mypackage_pkg) StdoutLine: {'line': b'writing requirements to ../../build/mypackage_pkg/mypackage_pkg.egg-info/requires.txt\n'}
+[1.239500] (mypackage_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypackage_pkg/mypackage_pkg.egg-info/top_level.txt\n'}
+[1.239858] (mypackage_pkg) StdoutLine: {'line': b"writing manifest file '../../build/mypackage_pkg/mypackage_pkg.egg-info/SOURCES.txt'\n"}
+[1.243955] (mypackage_pkg) StdoutLine: {'line': b"reading manifest file '../../build/mypackage_pkg/mypackage_pkg.egg-info/SOURCES.txt'\n"}
+[1.245280] (mypackage_pkg) StdoutLine: {'line': b"writing manifest file '../../build/mypackage_pkg/mypackage_pkg.egg-info/SOURCES.txt'\n"}
+[1.245639] (mypackage_pkg) StdoutLine: {'line': b'running build\n'}
+[1.245823] (mypackage_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.245982] (mypackage_pkg) StdoutLine: {'line': b'creating /home/oystein/myros2_ws/build/mypackage_pkg/build\n'}
+[1.246124] (mypackage_pkg) StdoutLine: {'line': b'creating /home/oystein/myros2_ws/build/mypackage_pkg/build/lib\n'}
+[1.246329] (mypackage_pkg) StdoutLine: {'line': b'creating /home/oystein/myros2_ws/build/mypackage_pkg/build/lib/mypackage_pkg\n'}
+[1.246528] (mypackage_pkg) StdoutLine: {'line': b'copying mypackage_pkg/__init__.py -> /home/oystein/myros2_ws/build/mypackage_pkg/build/lib/mypackage_pkg\n'}
+[1.246670] (mypackage_pkg) StdoutLine: {'line': b'copying mypackage_pkg/simple_publisher.py -> /home/oystein/myros2_ws/build/mypackage_pkg/build/lib/mypackage_pkg\n'}
+[1.246873] (mypackage_pkg) StdoutLine: {'line': b'running install\n'}
+[1.247302] (mypackage_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.248271] (mypackage_pkg) StdoutLine: {'line': b'creating /home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages/mypackage_pkg\n'}
+[1.248465] (mypackage_pkg) StdoutLine: {'line': b'copying /home/oystein/myros2_ws/build/mypackage_pkg/build/lib/mypackage_pkg/__init__.py -> /home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages/mypackage_pkg\n'}
+[1.248663] (mypackage_pkg) StdoutLine: {'line': b'copying /home/oystein/myros2_ws/build/mypackage_pkg/build/lib/mypackage_pkg/simple_publisher.py -> /home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages/mypackage_pkg\n'}
+[1.249275] (mypackage_pkg) StdoutLine: {'line': b'byte-compiling /home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages/mypackage_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[1.249607] (mypackage_pkg) StdoutLine: {'line': b'byte-compiling /home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages/mypackage_pkg/simple_publisher.py to simple_publisher.cpython-310.pyc\n'}
+[1.250141] (mypackage_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.250363] (mypackage_pkg) StdoutLine: {'line': b'creating /home/oystein/myros2_ws/install/mypackage_pkg/share/ament_index\n'}
+[1.250505] (mypackage_pkg) StdoutLine: {'line': b'creating /home/oystein/myros2_ws/install/mypackage_pkg/share/ament_index/resource_index\n'}
+[1.250713] (mypackage_pkg) StdoutLine: {'line': b'creating /home/oystein/myros2_ws/install/mypackage_pkg/share/ament_index/resource_index/packages\n'}
+[1.250859] (mypackage_pkg) StdoutLine: {'line': b'copying resource/mypackage_pkg -> /home/oystein/myros2_ws/install/mypackage_pkg/share/ament_index/resource_index/packages\n'}
+[1.250999] (mypackage_pkg) StdoutLine: {'line': b'copying package.xml -> /home/oystein/myros2_ws/install/mypackage_pkg/share/mypackage_pkg\n'}
+[1.251217] (mypackage_pkg) StdoutLine: {'line': b'copying launch/publisher_pkg_launch_file.launch.py -> /home/oystein/myros2_ws/install/mypackage_pkg/share/mypackage_pkg\n'}
+[1.251369] (mypackage_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.253482] (mypackage_pkg) StdoutLine: {'line': b'Copying ../../build/mypackage_pkg/mypackage_pkg.egg-info to /home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages/mypackage_pkg-0.0.0-py3.10.egg-info\n'}
+[1.254693] (mypackage_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.287631] (mypackage_pkg) StdoutLine: {'line': b'Installing simple_publisher script to /home/oystein/myros2_ws/install/mypackage_pkg/lib/mypackage_pkg\n'}
+[1.288084] (mypackage_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/oystein/myros2_ws/build/mypackage_pkg/install.log'\n"}
+[1.304430] (-) TimerEvent: {}
+[1.339289] (mypackage_pkg) CommandEnded: {'returncode': 0}
+[1.356331] (mypackage_pkg) JobEnded: {'identifier': 'mypackage_pkg', 'rc': 0}
+[1.358303] (-) EventReactorShutdown: {}

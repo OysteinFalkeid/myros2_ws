@@ -1,0 +1,38 @@
+[0.895s] Invoking command in '/home/oystein/myros2_ws/src/mypackage_pkg': PYTHONPATH=/home/oystein/myros2_ws/build/mypackage_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypackage_pkg build --build-base /home/oystein/myros2_ws/build/mypackage_pkg/build install --record /home/oystein/myros2_ws/build/mypackage_pkg/install.log --single-version-externally-managed install_data
+[1.236s] running egg_info
+[1.237s] creating ../../build/mypackage_pkg/mypackage_pkg.egg-info
+[1.237s] writing ../../build/mypackage_pkg/mypackage_pkg.egg-info/PKG-INFO
+[1.238s] writing dependency_links to ../../build/mypackage_pkg/mypackage_pkg.egg-info/dependency_links.txt
+[1.238s] writing entry points to ../../build/mypackage_pkg/mypackage_pkg.egg-info/entry_points.txt
+[1.239s] writing requirements to ../../build/mypackage_pkg/mypackage_pkg.egg-info/requires.txt
+[1.239s] writing top-level names to ../../build/mypackage_pkg/mypackage_pkg.egg-info/top_level.txt
+[1.239s] writing manifest file '../../build/mypackage_pkg/mypackage_pkg.egg-info/SOURCES.txt'
+[1.243s] reading manifest file '../../build/mypackage_pkg/mypackage_pkg.egg-info/SOURCES.txt'
+[1.245s] writing manifest file '../../build/mypackage_pkg/mypackage_pkg.egg-info/SOURCES.txt'
+[1.245s] running build
+[1.245s] running build_py
+[1.245s] creating /home/oystein/myros2_ws/build/mypackage_pkg/build
+[1.245s] creating /home/oystein/myros2_ws/build/mypackage_pkg/build/lib
+[1.246s] creating /home/oystein/myros2_ws/build/mypackage_pkg/build/lib/mypackage_pkg
+[1.246s] copying mypackage_pkg/__init__.py -> /home/oystein/myros2_ws/build/mypackage_pkg/build/lib/mypackage_pkg
+[1.246s] copying mypackage_pkg/simple_publisher.py -> /home/oystein/myros2_ws/build/mypackage_pkg/build/lib/mypackage_pkg
+[1.246s] running install
+[1.246s] running install_lib
+[1.247s] creating /home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages/mypackage_pkg
+[1.248s] copying /home/oystein/myros2_ws/build/mypackage_pkg/build/lib/mypackage_pkg/__init__.py -> /home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages/mypackage_pkg
+[1.248s] copying /home/oystein/myros2_ws/build/mypackage_pkg/build/lib/mypackage_pkg/simple_publisher.py -> /home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages/mypackage_pkg
+[1.248s] byte-compiling /home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages/mypackage_pkg/__init__.py to __init__.cpython-310.pyc
+[1.249s] byte-compiling /home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages/mypackage_pkg/simple_publisher.py to simple_publisher.cpython-310.pyc
+[1.249s] running install_data
+[1.250s] creating /home/oystein/myros2_ws/install/mypackage_pkg/share/ament_index
+[1.250s] creating /home/oystein/myros2_ws/install/mypackage_pkg/share/ament_index/resource_index
+[1.250s] creating /home/oystein/myros2_ws/install/mypackage_pkg/share/ament_index/resource_index/packages
+[1.250s] copying resource/mypackage_pkg -> /home/oystein/myros2_ws/install/mypackage_pkg/share/ament_index/resource_index/packages
+[1.250s] copying package.xml -> /home/oystein/myros2_ws/install/mypackage_pkg/share/mypackage_pkg
+[1.250s] copying launch/publisher_pkg_launch_file.launch.py -> /home/oystein/myros2_ws/install/mypackage_pkg/share/mypackage_pkg
+[1.251s] running install_egg_info
+[1.253s] Copying ../../build/mypackage_pkg/mypackage_pkg.egg-info to /home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages/mypackage_pkg-0.0.0-py3.10.egg-info
+[1.254s] running install_scripts
+[1.287s] Installing simple_publisher script to /home/oystein/myros2_ws/install/mypackage_pkg/lib/mypackage_pkg
+[1.287s] writing list of installed files to '/home/oystein/myros2_ws/build/mypackage_pkg/install.log'
+[1.339s] Invoked command in '/home/oystein/myros2_ws/src/mypackage_pkg' returned '0': PYTHONPATH=/home/oystein/myros2_ws/build/mypackage_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/oystein/myros2_ws/install/mypackage_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypackage_pkg build --build-base /home/oystein/myros2_ws/build/mypackage_pkg/build install --record /home/oystein/myros2_ws/build/mypackage_pkg/install.log --single-version-externally-managed install_data
